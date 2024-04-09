@@ -8,7 +8,7 @@ public class Program
 {
   public static void Main(string[] args)
   {
-    Console.Write("Please enter the date in the following pattern: yyyy-MM-dd:");
+    Console.Write("Hello! Please enter the date in the following pattern: yyyy-MM-dd:");
     var Input = Console.ReadLine();
 
     Regex Regex = new Regex("\\d{4}-[01]\\d-[012]\\d");
